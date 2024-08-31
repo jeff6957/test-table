@@ -71,7 +71,7 @@ const dataSource = Array.from({ length: 21 }).map((_, rowIndex) => {
 
 function App() {
   return (
-    <div style={{ height: '2000px', padding: '24px', width: 100px}}>
+    <div style={{ height: '2000px', padding: '24px', width: '1000px'}}>
       <Table
         columns={columns}
         dataSource={dataSource}

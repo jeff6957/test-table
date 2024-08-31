@@ -1,6 +1,6 @@
-import { useEffect, useRef, useState } from "react";
+import {  useRef, useState } from "react";
 
-import { CompareFn, ColumnsType, TableProps } from "./interface";
+import { ColumnsType, TableProps } from "./interface";
 
 const ASCEND = "ascend";
 const DESCEND = "descend";

@@ -1,4 +1,4 @@
-import React, { useEffect, forwardRef, useMemo } from 'react'
+import React, { useEffect, forwardRef } from 'react'
 import { useTableContext } from './TableContext';
 import { fillRef } from '../../uitls'
 import { getLeftLast, getLeftWidth, getRightWidth, getRightLast } from './utils'
